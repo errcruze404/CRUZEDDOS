@@ -1,10 +1,10 @@
-# XDDOS: An Advanced Minecraft Server Stress Tester
+# CRUZEDDOS: An Advanced Minecraft Server Stress Tester
 
 Now Archived i cant give it any time and to make it better i will have to do full recode and if i am gonna do that ever than its not gonna be in java most likely it will be in go or C++ or Rust so use it if u want but its not that good.
 
 ## Features
 
-XDDOS has the following features:
+CRUZEDDOS has the following features:
 
 - 54 different attack methods to choose from.
 - Supports all versions of Minecraft.
@@ -16,13 +16,13 @@ XDDOS has the following features:
 
 ## System Requirements
 
-- XDDOS is compiled using Java 17, which means that you can use Java 17 or above to run it.
-- If running on linux kernel then it must have must epoll support or XDDOS will crash.
+- CRUZEDDOS is compiled using Java 17, which means that you can use Java 17 or above to run it.
+- If running on linux kernel then it must have must epoll support or CRUZEDDOS will crash.
 
-## How to run XDDOS
+## How to run CRUZEDDOS
 
-1. Download the XDDOS jar from [here](https://github.com/AnAverageBeing/XDDOS/raw/master/XDDOS.jar).
-2. Create a folder to store XDDOS.jar in it.
+1. Download the CRUZEDDOS jar from [here](https://github.com/errcruze404/CRUZEDDOS).
+2. Create a folder to store CRUZEDDOS.jar in it.
 3. In that folder, create a text file and name it `urls.txt`.
 4. Put the links to scrape socks4 proxies from in that file. If you don't have any links, here are some just put these in `url.txt`:
    ```
@@ -31,8 +31,8 @@ XDDOS has the following features:
    https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks4.txt
    https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks4.txt
    ```
-5. To open the terminal, first navigate to the folder where the XDDOS jar file is stored. You can do this by using the `cd` command in the terminal and specifying the folder path. For example, if the XDDOS jar file is stored in the Downloads folder, you can navigate to it by typing `cd Downloads` in the terminal. Alternatively, you can open the folder where the XDDOS.jar file is stored in file explorer, and then type `cmd` in the address bar at the top of the window. This will open a terminal window in that folder.
-6. Use one of the commands given [here](https://github.com/AnAverageBeing/XDDOS#startup-command) to start XDDOS.
+5. To open the terminal, first navigate to the folder where the CRUZEDDOS jar file is stored. You can do this by using the `cd` command in the terminal and specifying the folder path. For example, if the CRUZEDDOS jar file is stored in the Downloads folder, you can navigate to it by typing `cd Downloads` in the terminal. Alternatively, you can open the folder where the CRUZEDDOS.jar file is stored in file explorer, and then type `cmd` in the address bar at the top of the window. This will open a terminal window in that folder.
+6. Use one of the commands given [here](https://github.com/errcruze404/CRUZEDDOS) to start CRUZEDDOS.
 
 ### Things to know
 
@@ -45,25 +45,25 @@ XDDOS has the following features:
 - For user-friendly CLI/auto mode with colors:
 
 ```
-java -jar XDDOS.jar
+java -jar CRUZEDDOS.jar
 ```
 
 - For user friendly CLI/auto mode without colors:
 
 ```
-java -jar XDDOS.jar -noansi
+java -jar CRUZEDDOS.jar -noansi
 ```
 
 - for manual startup with colors:
 
 ```
-java -jar XDDOS.jar [ip] [protocol] [method] [time] [netty threads] [loop threads] [y/n]
+java -jar CRUZEDDOS.jar [ip] [protocol] [method] [time] [netty threads] [loop threads] [y/n]
 ```
 
 - for manual startup without colors:
 
 ```
-java -jar XDDOS.jar [ip] [protocol] [method] [time] [netty threads] [loop threads] [y/n] -noansi
+java -jar CRUZEDDOS.jar [ip] [protocol] [method] [time] [netty threads] [loop threads] [y/n] -noansi
 ```
 
 #### NOTE! :-
@@ -75,19 +75,19 @@ java -jar XDDOS.jar [ip] [protocol] [method] [time] [netty threads] [loop thread
 - To run botjoiner for 10 seconds with 3 netty threads and 1 loop thread and use auto proxy generator:
 
 ```
-java -jar XDDOS.jar localhost:25565 47 botjoiner 10 3 1 y
+java -jar CRUZEDDOS.jar localhost:25565 47 botjoiner 10 3 1 y
 ```
 
 - To run botjoiner for 10 seconds with 3 netty threads and 1 loop thread and use your own proxy:
 
 ```
-java -jar XDDOS.jar localhost:25565 47 botjoiner 10 3 1 n
+java -jar CRUZEDDOS.jar localhost:25565 47 botjoiner 10 3 1 n
 ```
 
 - To run botjoiner for 10 seconds with 10 netty threads and 2 loop threads and use auto proxy generator:
 
 ```
-java -jar XDDOS.jar localhost:25565 47 botjoiner 10 10 2 y
+java -jar CRUZEDDOS.jar localhost:25565 47 botjoiner 10 10 2 y
 ```
 
 ## Methods avilable
@@ -152,6 +152,6 @@ java -jar XDDOS.jar localhost:25565 47 botjoiner 10 10 2 y
 
 Use `-noansi` flag at the end of the command or try using another terminal.
 
-### XDDOS has a discord?
+### CRUZEDDOS has a discord?
 
 Yes. You can join [here](https://dsc.gg/TEAMXD).
