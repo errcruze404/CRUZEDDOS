@@ -154,4 +154,4 @@ Use `-noansi` flag at the end of the command or try using another terminal.
 
 ### CRUZEDDOS has a discord?
 
-Yes. You can join [here](https://dsc.gg/TEAMXD).
+Yes. You can join [here]([https://dsc.gg/TEAMXD](https://discord.gg/tHJ7QDzhYN)https://discord.gg/tHJ7QDzhYN).
